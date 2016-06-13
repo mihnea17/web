@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!DOCTYPE topscorers [
+<!ELEMENT topscorers (player+)>
+	<!ELEMENT player (name,team,goals)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT team (#PCDATA)>
+		<!ELEMENT goals (#PCDATA)>
+]>
+
+<topscorers>
+	<player>
+		<name>Sergio Agüero</name>
+		<team>Manchester City</team>
+		<goals>17</goals>
+	</player>
+	<player>
+		<name>Diego Costa</name>
+		<team>Chelsea</team>
+		<goals>17</goals>
+	</player>
+	<player>
+		<name>Harry Kane</name>
+		<team>Tottenham Hotspur</team>
+		<goals>16</goals>
+	</player>
+	<player>
+		<name>Charlie Austin</name>
+		<team>Queens Park Rangers</team>
+		<goals>15</goals>
+	</player>
+	<player>
+		<name>Alexis Sánchez</name>
+		<team>Arsenal</team>
+		<goals>13</goals>
+	</player>
+	<player>
+		<name>Saido Berahino</name>
+		<team>West Bromwich Albion</team>
+		<goals>12</goals>
+	</player>
+	<player>
+		<name>Papiss Demba Cissé</name>
+		<team>Newcastle United</team>
+		<goals>11</goals>
+	</player>
+	<player>
+		<name>Olivier Giroud</name>
+		<team>Arsenal</team>
+		<goals>10</goals>
+	</player>
+	<player>
+		<name>Eden Hazard</name>
+		<team>Chelsea</team>
+		<goals>10</goals>
+	</player>
+	<player>
+		<name>Wayne Rooney</name>
+		<team>Manchester United</team>
+		<goals>10</goals>
+	</player>
+	<player>
+		<name>David Silva</name>
+		<team>Manchester City</team>
+		<goals>10</goals>
+	</player>
+	<player>
+		<name>Robin van Persie</name>
+		<team>Manchester United</team>
+		<goals>10</goals>
+	</player>
+	<player>
+		<name>Wilfried Bony</name>
+		<team>Manchester City</team>
+		<goals>9</goals>
+	</player>
+	<player>
+		<name>Christian Eriksen</name>
+		<team>Tottenham Hotspur</team>
+		<goals>9</goals>
+	</player>
+	<player>
+		<name>Danny Ings</name>
+		<team>Burnley</team>
+		<goals>9</goals>
+	</player>
+	<player>
+		<name>Diafra Sakho</name>
+		<team>West Ham United</team>
+		<goals>9</goals>
+	</player>
+	<player>
+		<name>Nacer Chadli</name>
+		<team>Tottenham Hotspur</team>
+		<goals>8</goals>
+	</player>
+	<player>
+		<name>Nikica Jelavic</name>
+		<team>Hull City</team>
+		<goals>8</goals>
+	</player>
+	<player>
+		<name>Graziano Pellè</name>
+		<team>Southampton</team>
+		<goals>8</goals>
+	</player>
+	<player>
+		<name>Santiago Cazorla</name>
+		<team>Arsenal</team>
+		<goals>7</goals>
+	</player>
+	<player>
+		<name>Peter Crouch</name>
+		<team>Stoke City</team>
+		<goals>7</goals>
+	</player>
+	<player>
+		<name>Mame Biram Diouf</name>
+		<team>Stoke City</team>
+		<goals>7</goals>
+	</player>
+	<player>
+		<name>Romelu Lukaku</name>
+		<team>Everton</team>
+		<goals>7</goals>
+	</player>
+	<player>
+		<name>Leonardo Ulloa</name>
+		<team>Leicester City</team>
+		<goals>7</goals>
+	</player>
+	<player>
+		<name>Jonathan Walters</name>
+		<team>Stoke City</team>
+		<goals>7</goals>
+	</player>
+</topscorers>

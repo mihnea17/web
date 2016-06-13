@@ -1,0 +1,373 @@
+{
+    "_links": [
+        {
+            "self": "http://api.football-data.org/alpha/soccerseasons/354/teams"
+        },
+        {
+            "soccerseason": "http://api.football-data.org/alpha/soccerseasons/354"
+        }
+    ],
+    "count": 20,
+    "teams": [
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/66/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/66/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/66"
+                }
+            },
+            "code": "MUFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/da/Manchester_United_FC.svg",
+            "name": "Manchester United",
+            "shortName": "ManU",
+            "squadMarketValue": "425,000,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/72/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/72/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/72"
+                }
+            },
+            "code": "SWA",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/ab/Swansea_City_Logo.svg",
+            "name": "Swansea City",
+            "shortName": "Swans",
+            "squadMarketValue": "104,000,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/338/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/338/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/338"
+                }
+            },
+            "code": "LCFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/6/63/Leicester02.png",
+            "name": "Leicester City",
+            "shortName": "Foxes",
+            "squadMarketValue": "63,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/62/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/62/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/62"
+                }
+            },
+            "code": "EFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/f9/Everton_FC.svg",
+            "name": "Everton",
+            "shortName": "Everton",
+            "squadMarketValue": "179,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/563/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/563/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/563"
+                }
+            },
+            "code": "WHU",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/e/e0/West_Ham_United_FC.svg",
+            "name": "West Ham United",
+            "shortName": "West Ham",
+            "squadMarketValue": "119,750,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/73/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/73/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/73"
+                }
+            },
+            "code": "THFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/b4/Tottenham_Hotspur.svg",
+            "name": "Tottenham Hotspur",
+            "shortName": "Spurs",
+            "squadMarketValue": "262,750,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/74/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/74/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/74"
+                }
+            },
+            "code": "WBA",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/8/8b/West_Bromwich_Albion.svg",
+            "name": "West Bromwich Albion",
+            "shortName": "West Bromwich",
+            "squadMarketValue": "80,500,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/71/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/71/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/71"
+                }
+            },
+            "code": "SUN",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/60/AFC_Sunderland.svg",
+            "name": "Sunderland",
+            "shortName": "Sunderland",
+            "squadMarketValue": "84,500,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/70/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/70/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/70"
+                }
+            },
+            "code": "SCFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a3/Stoke_City.svg",
+            "name": "Stoke City",
+            "shortName": "Stoke",
+            "squadMarketValue": "101,500,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/58/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/58/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/58"
+                }
+            },
+            "code": "AVFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/9/9f/Aston_Villa_logo.svg",
+            "name": "Aston Villa",
+            "shortName": "Aston Villa",
+            "squadMarketValue": "105,500,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/69/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/69/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/69"
+                }
+            },
+            "code": "QPR",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/d/d4/Queens_Park_Rangers.svg",
+            "name": "Queens Park Rangers",
+            "shortName": "QPR",
+            "squadMarketValue": "91,000,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/322/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/322/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/322"
+                }
+            },
+            "code": "HUL",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a9/Hull_City_AFC.svg",
+            "name": "Hull City",
+            "shortName": "Hull",
+            "squadMarketValue": "89,750,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/57/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/57/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/57"
+                }
+            },
+            "code": "AFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+            "name": "Arsenal",
+            "shortName": "Arsenal",
+            "squadMarketValue": "390,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/354/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/354/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/354"
+                }
+            },
+            "code": "CRY",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/b/bf/Crystal_Palace_F.C._logo_(2013).png",
+            "name": "Crystal Palace",
+            "shortName": "Crystal",
+            "squadMarketValue": "86,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/64/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/64/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/64"
+                }
+            },
+            "code": "LFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0a/FC_Liverpool.svg",
+            "name": "Liverpool",
+            "shortName": "Liverpool",
+            "squadMarketValue": "310,750,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/340/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/340/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/340"
+                }
+            },
+            "code": "SFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c9/FC_Southampton.svg",
+            "name": "Southampton",
+            "shortName": "Southampton",
+            "squadMarketValue": "189,500,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/67/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/67/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/67"
+                }
+            },
+            "code": "NUFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/56/Newcastle_United_Logo.svg",
+            "name": "Newcastle United",
+            "shortName": "Newcastle",
+            "squadMarketValue": "122,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/65/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/65/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/65"
+                }
+            },
+            "code": "MCFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/f/fd/ManCity.svg",
+            "name": "Manchester City",
+            "shortName": "ManCity",
+            "squadMarketValue": "418,250,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/328/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/328/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/328"
+                }
+            },
+            "code": "BFC",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Burnley_FC_badge.png",
+            "name": "Burnley",
+            "shortName": "Burnley",
+            "squadMarketValue": "46,750,000 €"
+        },
+        {
+            "_links": {
+                "fixtures": {
+                    "href": "http://api.football-data.org/alpha/teams/61/fixtures"
+                },
+                "players": {
+                    "href": "http://api.football-data.org/alpha/teams/61/players"
+                },
+                "self": {
+                    "href": "http://api.football-data.org/alpha/teams/61"
+                }
+            },
+            "code": "CFC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/5c/Chelsea_crest.svg",
+            "name": "Chelsea",
+            "shortName": "Chelsea",
+            "squadMarketValue": "484,000,000 €"
+        }
+    ]
+}

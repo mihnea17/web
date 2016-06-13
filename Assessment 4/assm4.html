@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Assessment 4</title>
+		<link type="text/css" rel="stylesheet" href="assm4.css"/>
+		<script type="text/javascript" src="assm4.js"></script>
+		<script type="text/javascript" src="requestData.js"></script>
+		<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	</head>
+	<body onload="initialise();">
+			
+		<div id="mainpage">
+		
+			<div id="banner"><img src="bpl1.jpg" id="bannertop"></div>
+			
+			<!-- Navigation menu -->
+			
+			<div id="navigate">
+				<div class="menu">
+					<div id="home" class="menutitle">Home</div>
+				</div>
+				<div class="menu">
+					<div id="teams" class="menutitle">Teams</div>
+				</div>
+				<div class="menu">
+					<div id="lgtab" class="menutitle">League Table</div>
+				</div>
+				<div class="menu">
+					<div id="topscor" class="menutitle">Top Scorers</div>
+				</div>
+				<div class="search">
+					<span id="fakelink" >Search</span>
+				</div>
+			</div> <!-- id="navigate" -->
+				
+			<!-- Ticker -->
+			<div id="mainpag">
+				<div class="listblock" id="minitbl">
+						<div class="minileaguetable">
+							<img src="table.png" alt>
+						<table border="1" style="width:100%" id="minitable">
+		 				<tr>
+						    <th class="top">Pos</th>
+						    <th class="top">Club</th> 
+						    <th class="top">Pld</th>
+						    <th class="top">Pts</th>
+						</tr>
+						</table>	
+						</div>  <!-- id="minitable" -->
+				</div>
+
+				<div id="history">
+					<h1><img src="bpl.jpg" id="bpl">Premier League</h1>
+						<div> The Premier League is an English professional league for men's association football clubs. At the top of the English football league system, it is the country's primary football competition. Contested by 20 clubs, it operates on a system of promotion and relegation with the Football League. Besides English clubs, the Welsh clubs that compete in the English football pyramid can also qualify to play.
+
+						The Premier League is a corporation in which the 20 member clubs act as shareholders. Seasons run from August to May, with teams playing 38 matches each (playing each team in the league twice, home and away) totalling 380 matches in the season.[1] Most games are played in the afternoons of Saturdays and Sundays, the other games during weekday evenings. It is currently sponsored by Barclays Bank and thus officially known as the Barclays Premier League. Outside England, it is commonly referred to as the English Premier League (EPL).
+
+						The competition formed as the FA Premier League on 20 February 1992 following the decision of clubs in the Football League First Division to break away from the Football League, which was originally founded in 1888, and take advantage of a lucrative television rights deal.[2] This deal is worth £1 billion a year domestically as of 2013–14, with BSkyB and BT Group securing the domestic rights to broadcast 116 and 38 games respectively.[3] The league generates €2.2 billion per year in domestic and international television rights.[4]
+
+						The Premier League is the most-watched football league in the world, broadcast in 212 territories to 643 million homes and a potential TV audience of 4.7 billion people.[5] In the 2010–11 season, the average Premier League match attendance was 35,363, the second highest of any professional football league behind the Bundesliga,[6] and stadium occupancy was 92% capacity.[7] The Premier League ranked second in the Union of European Football Associations (UEFA) coefficients of leagues based on performances in European competitions over the last five years.[8]
+
+						Of the 46 clubs to have competed since the inception of the Premier League in 1992, five have won the title: Manchester United (13), Arsenal (3), Chelsea (3), Manchester City (2) and Blackburn Rovers (1). The current champions are Manchester City, who won the title in 2013–14.</div>
+				</div> <!-- id="history" -->
+			</div> <!-- id="mainpag" -->
+			<div id="leaguetable" style="display:none">
+						<img src="table.png" id="tblimg" alt>
+						<p id="actions">
+						Sort: <span class="fakelink" id="goals">Goals</span>, <span class="fakelink" id="gd">GD</span>
+						Filter: <span class="fakelink" id="relegation">Relegate</span>, <span class="fakelink" id="europe">European Cups</span></p>
+						<table border="1" style="width:80%" id="lgtable"></table>	
+			</div> <!-- id="leaguetable" -->
+			<div id="topscorers" style="display:none">
+				<h1 style="text-align:center">Top Scorers</h1>
+				<p id="actions">
+				Sort: <span class="fakelink" id="club">Club</span>
+				Filter: <span class="fakelink" id="9g">Above 9 Goals</span></p>
+				<table border="1" style="width:50%" id="topscort"></table>
+			</div> <!-- id="topscorers" -->
+			<div id="teamsdiv" style="display:none">
+				<h1 style="text-align:center">Teams Info</h1>
+				<p id="actions">
+				Sort: <span class="fakelink" id="value">Market Value</span></p>
+				<table border="1" style="width:50%" id="teamstable"></table>
+			</div>
+		</div>
+	</body>
+</html>
